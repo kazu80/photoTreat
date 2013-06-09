@@ -18,6 +18,8 @@
 		FC1E0F971764BC8900746565 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FC1E0F961764BC8900746565 /* Default-568h@2x.png */; };
 		FC1E0F9A1764BC8900746565 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC1E0F991764BC8900746565 /* ViewController.m */; };
 		FC1E0F9D1764BC8900746565 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC1E0F9B1764BC8900746565 /* ViewController.xib */; };
+		FC1E0FA41764C0CB00746565 /* hondatubasa02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FC1E0FA31764C0CB00746565 /* hondatubasa02.jpg */; };
+		FC1E0FA61764CFAE00746565 /* mask.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FC1E0FA51764CFAE00746565 /* mask.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +39,8 @@
 		FC1E0F981764BC8900746565 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		FC1E0F991764BC8900746565 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		FC1E0F9C1764BC8900746565 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		FC1E0FA31764C0CB00746565 /* hondatubasa02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hondatubasa02.jpg; sourceTree = "<group>"; };
+		FC1E0FA51764CFAE00746565 /* mask.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mask.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,9 +48,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC1E0F851764BC8900746565 /* CoreGraphics.framework in Frameworks */,
 				FC1E0F811764BC8900746565 /* UIKit.framework in Frameworks */,
 				FC1E0F831764BC8900746565 /* Foundation.framework in Frameworks */,
-				FC1E0F851764BC8900746565 /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +92,8 @@
 				FC1E0F981764BC8900746565 /* ViewController.h */,
 				FC1E0F991764BC8900746565 /* ViewController.m */,
 				FC1E0F9B1764BC8900746565 /* ViewController.xib */,
+				FC1E0FA31764C0CB00746565 /* hondatubasa02.jpg */,
+				FC1E0FA51764CFAE00746565 /* mask.jpg */,
 				FC1E0F871764BC8900746565 /* Supporting Files */,
 			);
 			path = ProgPhotoTreatment;
@@ -163,6 +169,8 @@
 				FC1E0F951764BC8900746565 /* Default@2x.png in Resources */,
 				FC1E0F971764BC8900746565 /* Default-568h@2x.png in Resources */,
 				FC1E0F9D1764BC8900746565 /* ViewController.xib in Resources */,
+				FC1E0FA41764C0CB00746565 /* hondatubasa02.jpg in Resources */,
+				FC1E0FA61764CFAE00746565 /* mask.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
