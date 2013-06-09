@@ -10,4 +10,11 @@
 
 @interface ViewController : UIViewController
 
+@property (retain, nonatomic) IBOutlet UIImageView *imageView;
+- (IBAction)clickDisp:(id)sender;
+- (IBAction)clickRotate:(id)sender;
+- (IBAction)clickMask:(id)sender;
+- (IBAction)clickOpen:(id)sender;
+- (IBAction)clickSave:(id)sender;
+
 @end
