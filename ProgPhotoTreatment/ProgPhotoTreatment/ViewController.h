@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <UINavigationBarDelegate,UIImagePickerControllerDelegate>
 
 @property (retain, nonatomic) IBOutlet UIImageView *imageView;
 - (IBAction)clickDisp:(id)sender;

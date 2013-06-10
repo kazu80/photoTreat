@@ -61,10 +61,29 @@
 }
 
 - (IBAction)clickOpen:(id)sender {
+    UIImagePickerController *imagePicker = [[UIImagePickerController alloc] init];
+    imagePicker.sourceType = UIImagePickerControllerSourceTypeSavedPhotosAlbum;
+    imagePicker.delegate = self;
+    imagePicker.allowsEditing = NO;
+    [self presentModalViewController:imagePicker animated:YES];
 }
 
 - (IBAction)clickSave:(id)sender {
     // 保存する
     UIImageWriteToSavedPhotosAlbum(self.imageView.image, nil, nil, nil);
 }
+
+-(void)imagePickerController:(UIImagePickerController *)picker didFinishPickingImage:(UIImage *)image editingInfo:(NSDictionary *)editingInfo
+{
+    // 画面に画像を表示する
+    [self dismissModalViewControllerAnimated:YES];
+    self.imageView.image = image;
+}
+
+- (void)imagePickerControllerDidCancel:(UIImagePickerController *)picker
+{
+    // キャンセルの場合は何もしない
+    [self dismissModalViewControllerAnimated:YES];
+}
+
 @end
